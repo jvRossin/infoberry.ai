@@ -44,3 +44,11 @@ O sistema irá iniciar e permitir que você se comunique com os agentes da InfoB
 - `Python` – Linguagem principal do projeto.
 - `SQL` – Para armazenamento e consultas de dados.
 - `python-dotenv` – Para o carregamento seguro de variáveis de ambiente.
+
+## 📌 Roadmap
+- [ ] Integração com Whatsapp
+- [ ] Upload de imagem ou documento (PDF/DOC) para análise e organização automática no banco de dados
+  - [ ] Receber arquivos via interface ou API
+  - [ ] Extrair informações (ex: OCR para imagem, texto para DOC/PDF)
+  - [ ] Armazenar dados relevantes no banco de forma estruturada
+- [ ] Interface web para administração do sistema
