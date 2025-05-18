@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# InfoBerry.AI
+# InfoBerry AI
 Este projeto é um sistema inteligente de apoio à gestão de açaíterias, focado na análise de dados, controle de custos, precificação e performance de vendas. Composto por diferentes agentes especializados, o sistema oferece uma visão completa e integrada do negócio, ajudando na tomada de decisões estratégicas.
 
 ## 🧪 Acesso ao Projeto
