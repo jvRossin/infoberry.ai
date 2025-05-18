@@ -8,7 +8,7 @@ from functions.common import banco_dados
 
 def msg_analista(assunto):
     analise = agente_analista(assunto, banco_dados)
-    print("\n--- 👩‍💼 Resultado do Agente 1 - Vanessa - (Analista de Vendas) ---\n")
+    print("\n--- 👩‍💼 Resultado do Agente - Vanessa - (Analista de Vendas) ---\n")
     print(analise)
     print("--------------------------------------------------------------")
     print('\n')
@@ -17,7 +17,7 @@ def msg_analista(assunto):
     while not novo_assunto.startswith('Encerrar'):
         analise = agente_analista(novo_assunto, banco_dados)
         
-        print("\n--- 👩‍💼 Resultado do Agente 1 - Vanessa - (Analista de Vendas) ---\n")
+        print("\n--- 👩‍💼 Resultado do Agente - Vanessa - (Analista de Vendas) ---\n")
         print(analise)
         print("--------------------------------------------------------------")
         print('\n')
@@ -29,7 +29,7 @@ def msg_analista(assunto):
 
 def msg_ingredientes(assunto):
     analise = agente_ingredientes(assunto, banco_dados)
-    print("\n--- 🍌 Resultado do Agente 2 - Gabriel - (Ingredientes) ---\n")
+    print("\n--- 🍌 Resultado do Agente - Gabriel - (Ingredientes) ---\n")
     print(analise)
     print("--------------------------------------------------------------")
     print('\n')
@@ -38,7 +38,7 @@ def msg_ingredientes(assunto):
     while not novo_assunto.startswith('Encerrar'):
         analise = agente_ingredientes(novo_assunto, banco_dados)
         
-        print("\n--- 🍌 Resultado do Agente 2 - Gabriel - (Ingredientes) ---\n")
+        print("\n--- 🍌 Resultado do Agente - Gabriel - (Ingredientes) ---\n")
         print(analise)
         print("--------------------------------------------------------------")
         print('\n')
@@ -50,7 +50,7 @@ def msg_ingredientes(assunto):
 
 def msg_precificacao(assunto):
     analise = agente_precificacao(assunto, banco_dados)
-    print("\n--- 📊 Resultado do Agente 3 - Victor - (Custos e Precificação) ---\n")
+    print("\n--- 📊 Resultado do Agente - Victor - (Custos e Precificação) ---\n")
     print(analise)
     print("--------------------------------------------------------------")
     print('\n')
@@ -59,7 +59,7 @@ def msg_precificacao(assunto):
     while not novo_assunto.startswith('Encerrar'):
         analise = agente_precificacao(novo_assunto, banco_dados)
         
-        print("\n--- 📊 Resultado do Agente 3 - Victor - (Custos e Precificação) ---\n")
+        print("\n--- 📊 Resultado do Agente - Victor - (Custos e Precificação) ---\n")
         print(analise)
         print("--------------------------------------------------------------")
         print('\n')
@@ -71,7 +71,7 @@ def msg_precificacao(assunto):
 
 def msg_financeiro(assunto):
     analise = agente_financeiro(assunto, banco_dados)
-    print("\n--- 💰 Resultado do Agente 4 - Daniel - (Financeiro e de Gestão) ---\n")
+    print("\n--- 💰 Resultado do Agente - Daniel - (Financeiro e de Gestão) ---\n")
     print(analise)
     print("--------------------------------------------------------------")
     print('\n')
@@ -80,7 +80,7 @@ def msg_financeiro(assunto):
     while not novo_assunto.startswith('Encerrar'):
         analise = agente_financeiro(novo_assunto, banco_dados)
         
-        print("\n--- 💰 Resultado do Agente 4 - Daniel - (Financeiro e de Gestão) ---\n")
+        print("\n--- 💰 Resultado do Agente - Daniel - (Financeiro e de Gestão) ---\n")
         print(analise)
         print("--------------------------------------------------------------")
         print('\n')

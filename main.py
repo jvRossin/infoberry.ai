@@ -22,12 +22,52 @@ while time.time() - inicio < duracao:
     for caractere in caracteres_animacao:
         if time.time() - inicio >= duracao:
             break
-        print(f"\r🚀 Iniciando Sistema Stanley {caractere}   ", end='', flush=True)
+        print(f"\r🚀 Iniciando Sistema InfoBerry {caractere}   ", end='', flush=True)
         time.sleep(tempo_espera)
 print('\n')
-print("🥶 Sistema de Gestão Stanley Iniciado 🥣")
-prompt = input("Por favor, digite o Assunto sobre o qual você quer gerir: ")
+print('''
+                                                   
+                        @@@              @         
+                       @@.@@       @@@@@.@@        
+                      @+...@@   @@@......@@        
+                     @@.....@@@@........@@         
+                    @@.......@.........:@          
+                    @@.......@@.......@@           
+                    @@.......@@......@@            
+               @@@@@@@.......@@@@@@@@              
+           @@@+::::::@@@...@@@::::::+@@@           
+          @@::::::::::::@@@::::::::::::@@          
+        @@:::::#@:::::::@@::::::::@%:::::@         
+        @%:::+@@::::::::@-:::::::::@@-:::@@        
+        @::::+::::::@@@#:::*@@@::::::*::::@        
+        @-::::::::@@:::::::::::@@::::::::-@        
+        @@:::::::@::::-@+:=@-::::@:::::::@@        
+         @@:::::@*:::::::::::::::%@:::::@@         
+           @@:::@:::::::::::::::::@:::@@           
+             @@@@:::::::::::::::::@@@@             
+                @@:::::::::::::::@@                
+                 @@:::::::::::::@@                 
+                  @@@:::::::::@@@                  
+                    @@@@@@@@@@@                    
+                                                   
+                                                   
+                                                   
+    #############################################
+    # --- 🫐 Sistema InfoBerry Iniciado 🫐 --- #
+    ############################################
+    ''')
+print("\n-----------------------------------------------------")
 
+while time.time() - inicio < duracao:
+    for caractere in caracteres_animacao:
+        if time.time() - inicio >= duracao:
+            break
+        print(f"\r⚙️ Configurando Loja {caractere}   ", end='', flush=True)
+        time.sleep(tempo_espera)
+print('\n')
+print("🥣 Gestão da Loja Stanley Iniciado 🍄")
+
+prompt = input("Por favor, digite o Assunto sobre o qual você quer gerir: ")
 if not prompt:
     print("❗O Assunto não foi válido para prosseguir!")
     prompt = input("Por favor, digite novamente o Assunto sobre o qual você quer gerir: ")
