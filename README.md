@@ -13,8 +13,8 @@ Para executar o projeto localmente, siga os passos abaixo:
 ### 1.Clone o repositório:
 
 ```python
-git clone https://github.com/jvRossin/infoberry.ai.git
-cd infoberry.ai
+git clone https://github.com/jvRossin/infoberry_ai.git
+cd infoberry_ai
 ```
 
 ### 2.Instale as dependências:
